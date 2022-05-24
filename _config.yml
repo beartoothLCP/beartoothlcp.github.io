@@ -16,7 +16,7 @@
 title: "Welcome to Beartooth Least Cost Path"
 email: 'beartoothleastcostpath@gmail.com'
 description: "Find the most efficient path through the 10 highest peaks in the Beartooth Mountains of Montana"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://beartoothlcp.github.io" # the subpath of your site, e.g. /blog
 url: "https://beartoothlcp.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: ''
 github_username: ''
@@ -34,7 +34,7 @@ plugins:
 pagination:
   
   # Site-wide kill switch, disabled here it doesn't run at all 
-  enabled: true
+  enabled: false
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: true
